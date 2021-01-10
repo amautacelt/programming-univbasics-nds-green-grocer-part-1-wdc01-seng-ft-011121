@@ -3,10 +3,11 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   
-  outputs {}
+  
+  outputs.each do |item|
   
 end
-
+ 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
   #
