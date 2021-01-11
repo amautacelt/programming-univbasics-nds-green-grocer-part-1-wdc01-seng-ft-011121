@@ -8,9 +8,10 @@ def find_item_by_name_in_collection(name, collection)
   
   collection.each do |key|
     key.find do |innerkey, innervalue|
-      binding.pry
+      # binding.pry
     end
   end
+  find_item_by_name_in_collection()
 end
  
 def consolidate_cart(cart)
