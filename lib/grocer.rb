@@ -7,7 +7,7 @@ def find_item_by_name_in_collection(name, collection)
   
   
   collection.each do |key|
-    key.any? do |name|
+    if key.any? == TRUE
       # binding.pry
     end
   end
