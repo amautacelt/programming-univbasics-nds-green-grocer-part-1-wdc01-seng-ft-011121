@@ -7,7 +7,8 @@ def find_item_by_name_in_collection(name, collection)
   
   
   collection.find do |e|
-    e[:item]
+    e[:item] == name
+    print
   end
 end
  
