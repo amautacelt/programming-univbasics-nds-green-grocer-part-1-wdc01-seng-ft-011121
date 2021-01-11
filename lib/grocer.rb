@@ -28,10 +28,10 @@ def consolidate_cart(cart)
       new_cart[item] ||= attribute_hash 
       new_cart[item][:count] ? new_cart[item][:count] += 1 :   
       new_cart[item][:count] = 1 
+    end 
   end 
-end 
-new_cart 
-end
+  new_cart 
+  end
 
 end
 
