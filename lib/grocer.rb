@@ -5,7 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   
   
   collection.each do |key|
-    key.each do ||
+    key.each do |innerkey, innervalue|
   
 end
  
