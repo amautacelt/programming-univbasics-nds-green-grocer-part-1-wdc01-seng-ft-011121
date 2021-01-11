@@ -11,7 +11,7 @@ def find_item_by_name_in_collection(name, collection)
       # binding.pry
     end
   end
-  find_item_by_name_in_collection("CANNED BEANS")
+  
 end
  
 def consolidate_cart(cart)
