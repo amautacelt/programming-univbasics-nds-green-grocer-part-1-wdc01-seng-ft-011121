@@ -6,8 +6,8 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   
   
-  collection.each do |key|
-end
+  collection.find do |e|
+  end
 end
  
 def consolidate_cart(cart)
